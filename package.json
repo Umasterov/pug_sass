@@ -10,5 +10,8 @@
 	"comment": "Добавить watch для JS. Удалить эту строку",
 	"author": "Ivan Kiselev umasterov@mail.ru",
 	"license": "ISC",
-	"dependencies": {}
+	"dependencies": {
+		"pug": "^3.0.2",
+		"sass": "^1.32.13"
+	}
 }

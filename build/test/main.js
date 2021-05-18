@@ -1,1 +1,0 @@
-import{module}from"module.js";document.body.classList.add("success");

@@ -1,0 +1,14 @@
+{
+	"name": "pug_sass_site",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "pug content -P -w -o build/dev && sass style/main.sass build/dev/style.css && uglifyjs script/main.js -o build/dev/script.js",
+		"release": "pug content -o build/release && sass style/main.sass build/release/style.css && uglifyjs script/main.js -o build/release/script.js"
+	},
+	"comment": "Добавить watch для JS. Удалить эту строку",
+	"author": "Ivan Kiselev umasterov@mail.ru",
+	"license": "ISC",
+	"dependencies": {}
+}
